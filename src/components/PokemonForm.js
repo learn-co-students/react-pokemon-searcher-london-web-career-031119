@@ -2,16 +2,16 @@ import React from 'react'
 import { Form } from 'semantic-ui-react'
 
 class PokemonForm extends React.Component {
-  constructor() {
-    super()
-
-    this.state = {
+  
+  state = {
       name: '',
       hp: '',
       frontUrl: '',
       backUrl: ''
     }
-  }
+
+  
+  
 
   render() {
     return (
